@@ -1,0 +1,30 @@
+.ArrowDown {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid gray;
+  text-align: center;
+}
+
+.ArrowIcon {
+  color: gray;
+  border-radius: 50%;
+  overflow: hidden;
+  animation-name: arrow-animation;
+  transform: translate3d(0, -30px, 0);
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0, 1.02, 0.98, 0.02);
+  transform-origin: center;
+}
+
+@keyframes arrow-animation {
+  0% {
+    transform: translate3d(0, -30px, 0);
+  }
+  100% {
+    transform: translate3d(0, 30px, 0);
+  }
+}

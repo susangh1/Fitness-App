@@ -1,0 +1,72 @@
+.feature-text h2 {
+  font-size: 15px;
+  color: gray;
+  font-weight: bold;
+}
+.feature-text h3 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+.feature-text p {
+  color: gray;
+  font-weight: light;
+}
+
+.download-book-buttons {
+  gap: 2rem;
+}
+
+.download-button button {
+  height: 50px;
+  padding: 5px;
+  width: 150px;
+  background-color: #ff592c;
+  color: white;
+  border: 1px solid #ff592c;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+.download-button button:hover {
+  background-color: #fc3e09;
+}
+.book-button button {
+  height: 50px;
+  padding: 5px;
+  width: 150px;
+  color: black;
+  border: 1px solid white;
+  border-radius: 25px;
+  font-weight: bolder;
+}
+.book-button button:hover {
+  background-color: black;
+  color: white;
+}
+
+.feature-image {
+  position: relative;
+}
+
+.ball-image img {
+  position: absolute;
+  content: "";
+  bottom: 3rem;
+  right: 3rem;
+
+}
+.blackball-image img {
+  position: absolute;
+  content: "";
+  bottom: 5rem;
+  left: 5rem;
+}
+
+.bottle-image img {
+  position: absolute;
+  content: "";
+  bottom: 22rem;
+  right: 5rem;
+  z-index: -111;
+}
+
+

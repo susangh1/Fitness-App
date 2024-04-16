@@ -1,0 +1,25 @@
+.class-text h1{
+    font-size: 18px;
+    font-weight: 800;
+    color: gray;
+}
+
+.number-box{
+    height: 30px;
+    width: 50px;
+    background-color: #9757D7;
+    border-radius: 15px;
+}
+.number-box h1{
+    text-align: center;
+    color: white;
+    padding: 4px;
+    font-weight: 500;
+}
+.intuitive-text h2{
+    font-size: 18px;
+}
+
+.intuitive-text p{
+    color: gray;
+}
